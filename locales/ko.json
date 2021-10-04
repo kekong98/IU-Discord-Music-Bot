@@ -1,0 +1,176 @@
+{
+	"clip": {
+		"description": "주어진 클립을 재생합니다.",
+		"usagesReply": "사용 방법: {prefix}clip <name>",
+		"errorQueue": "대기열에 음악이 있을 경우 클립을 재생할 수 없습니다.",
+		"errorNotChannel": "음성 채널에 들어와 있지 않습니다."
+	},
+	"clips": {
+		"description": "모든 클립을 재생합니다."
+	},
+	"help": {
+		"description": "모든 명령어와 설명을 표시해요!",
+		"embedTitle": "**🎶 아이유사랑해 봇 명령어** 도움말",
+		"embedDescription": "**기호 : ;;**"
+	},
+	"invite": {
+		"description": "봇에 대한 초대 링크를 생성해요!"
+	},
+	"loop": {
+		"description": "음악 반복을 실행/해제 합니다.",
+		"errorNotQueue": "재생할 음악이 없습니다.",
+		"result": "음악 반복 상태: {loop}"
+	},
+	"lyrics": {
+		"description": "현재 재생중인 음악의 가사를 가져옵니다.",
+		"errorNotQueue": "재생할 음악이 없습니다.",
+		"lyricsNotFound": "{title} 에 대한 가사를 찾을 수 없습니다.",
+		"embedTitle": "{title} 가사"
+	},
+	"move": {
+		"description": "대기열에서 노래를 이동해요!",
+		"errorNotQueue": "대기열에 노래가 없어요🥺",
+		"usagesReply": "사용 방법: {prefix}move <대기열 번호>",
+		"result": "<@{author}> ✅ **{title}** 를 대기열에서 {index}번째로 옮겼어요!"
+	},
+	"nowplaying": {
+		"description": "현재 재생중인 음악을 표시합니다.",
+		"errorNotQueue": "재생할 음악이 없습니다.",
+		"embedTitle": "현재 재생중",
+		"live": " ◉ 스트리밍",
+		"timeRemaining": "남은 재생시간은 {time} 입니다."
+	},
+	"pause": {
+		"description": "현재 재생중인 음악을 일시중지 해요.",
+		"errorNotQueue": "재생할 음악이 없어요🥺",
+		"result": "<@{author}> ⏸ 노래을 일시중지 했어요!"
+	},
+	"ping": {
+		"description": "봇의 평균 핑 수치를 보여줘요!",
+		"result": "📈 현재 평균 핑 수치는 {ping} ms 입니다."
+	},
+	"link": {
+		"description": "유튜브로부터 노래를 재생해요!",
+		"errorNotChannel": "통화방에 들어와 있지 않아요🥺",
+		"errorNotInSameChannel": "{user} 님과 같은 음성 채널에 들어와 있어야 해요🥺",
+		"usageReply": "사용 방법: {prefix}play <유튜브 링크>",
+		"missingPermissionConnect": "음성 채널에 들어갈 수 없어요❌ 권한을 확인해 주세요🥺",
+		"missingPermissionSpeak": "음성 채널에서 말할 수 없어요❌ 권한을 확인해 주세요🥺",
+		"queueAdded": "✅ **{title}** 가 대기열에 추가되었어요!",
+		"cantJoinChannel": "채널에 진입할 수 없어요🥺 : {error}",
+		"queueEnded": "❌ 모든 대기열 재생을 완료했어요. 노래를 추가해주세요!",
+		"queueError": "에러가 발생했어요🥺 .: {error}",
+		"startedPlaying": "🎶 **{title}** 재생을 시작할게요! {url}",
+		"skipSong": "<@{author}> 님이 ⏩ 노래를 넘겼어요!",
+		"pauseSong": "<@{author}> 님이 ⏸ 노래를 일시중지 했어요!",
+		"resumeSong": "<@{author}> 님이 ▶ 노래를 재생했어요!",
+		"unmutedSong": "<@{author}> 님이 🔊 음소거를 해제했어요!",
+		"mutedSong": "<@{author}> 님이 🔇 음소거를 설정했어요!",
+		"decreasedVolume": "<@{author}> 님이 🔉 볼륨을 낮추어, 현재 볼륨 {volume}%",
+		"increasedVolume": "<@{author}> 님이 🔊 볼륨을 높여, 현재 {volume}%",
+		"loopSong": "<@{author}> 님이 설정한 노래 반복 상태: {loop}",
+		"stopSong": "<@{author}> 님이 ⏹ 노래를 중지했어요!",
+		"leaveChannel": "👋 장시간 이용이 없어 통화방에 나가 있을게요!",
+		"songNotFound": "노래를 찾을 수 없어요🥺"
+	},
+	"playlist": {
+		"description": "유튜브로부터 재생목록을 재생해요!",
+		"usagesReply": "사용 방법: {prefix}playlist <유튜브 플레이리스트>",
+		"errorNotChannel": "통화방에 들어와 있지 않습니다.",
+		"errorNotInSameChannel": "{user} 님과 같은 통화방에 들어와 있어야 합니다.",
+		"missingPermissionConnect": "통화방에 들어갈 수 없어요❌ 권한을 확인해 주세요🥺",
+		"missingPermissionSpeak": "음성 채널에서 말할 수 없어요❌ 권한을 확인해 주세요🥺",
+		"errorNotFoundPlaylist": "재생목록을 찾지 못했어요🥺 :(",
+		"fetchingPlaylist": "⌛ 재생목록을 가져오고 있습니다... 잠시만 기다려주세요!",
+		"playlistCharLimit": "\n재생목록 생략...",
+		"startedPlaylist": "<@{author}> 재생목록을 시작할게요🎶",
+		"cantJoinChannel": "채널에 진입할 수 없습니다.: {error}"
+	},
+	"pruning": {
+		"description": "봇이 발행하는 메세지의 삭제 여부를 결정합니다.",
+		"errorWritingFile": "파일 작성에 실패했습니다.",
+		"result": "메세지 자동 삭제가 {result} 되었어요!"
+	},
+	"queue": {
+		"description": "현재 재생중인 노래와 대기열을 표시해요!",
+		"missingPermissionMessage": "메세지를 관리하는 권한이 없어요❌ 권한을 확인해 주세요🥺",
+		"errorNotQueue": "❌ **대기열에 어떤 항목도 존재하지 않아요🥺**",
+		"currentPage": "현재 페이지 - ",
+		"embedTitle": "📃 노래 대기열",
+		"embedCurrentSong": "**🎶 현재 재생중인 노래 - [{title}]({url})**\n\n{info}"
+	},
+	"remove": {
+		"description": "대기열부터 노래를 삭제해요!",
+		"errorNotQueue": "대기열에 노래가 없어요🥺",
+		"usageReply": "사용 방법: {prefix}remove <대기열 번호>",
+		"result": "<@{author}> 님이 ❌ **{title}** 를 대기열에서 삭제했어요!"
+	},
+	"resume": {
+		"description": "현재 재생중인 노래을 다시 재생해요!",
+		"errorNotQueue": "재생할 노래이 없어요🥺",
+		"resultNotPlaying": "<@{author}> 노래를 다시 재생했어요!",
+		"errorPlaying": "대기열이 일시중지 되어있지 않아요🥺"
+	},
+	"play": {
+		"description": "노래를 검색하고 재생할 노래을 선택해요!",
+		"usageReply": "사용방법`: {prefix}{name} <노래 이름>",
+		"errorAlreadyCollector": "해당 채널에 메세지 컬렉터가 이미 존재해요🥺",
+		"errorNotChannel": "통화방에 들어와 있지 않아요🥺",
+		"resultEmbedTitle": "**재생할 노래 번호를 답장으로 보내주세요.**",
+		"resultEmbedDesc": "📋 검색 결과 : {search}",
+		"startedPlaying": "🎶 재생 중 : **{title}** {url}",
+		"queueEnded": "❌ 노래가 끝났어요, 노래를 더 추가해주세요!",
+		"skipSong": "<@{author}> 님이 ⏩ 노래를 넘겼어요!",
+		"leaveChannel": "노래를 추가하지 않아서 통화방을 나갈게요! 다음에 또 불러주세요💙",
+		"pauseSong": "<@{author}> 님이 ⏸ 노래를 정지했어요!.",
+		"resumeSong": "<@{author}> 님이 ▶ 노래를 다시 재생했어요!",
+		"stopSong": "<@{author}> ⏹ stopped the music!",
+		"mutedSong": "<@{author}> 🔇 muted the music!",
+		"unmutedSong": "<@{author}> 🔊 unmuted the music!",
+		"increasedVolume": "<@{author}> 🔊 increased the volume, the volume is now {volume}%"
+	},
+	"shuffle": {
+		"description": "노래 대기열을 무작위로 섞어요!",
+		"errorNotQueue": "대기열에 노래가 없어요🥺",
+		"result": "<@{author}> 님이 🔀 대기열을 섞었어요!"
+	},
+	"skip": {
+		"description": "현재 재생중인 노래를 넘겨요!",
+		"errorNotQueue": "넘길 음악이 존재하지 않아요🥺",
+		"result": "<@{author}> 님이 ⏭ 노래를 넘겼어요!"
+	},
+	"skipto": {
+		"description": "설정한 대기열 번호까지 노래를 넘겨요!",
+		"usageReply": "사용 방법: {prefix}{name} <대기열 번호>",
+		"errorNotQueue": "대기열에 노래가 없어요🥺",
+		"errorNotValid": "대기열에 {length} 개의 노래가 존재해요🥺",
+		"result": "<@{author}> ⏭ {arg} 개의 노래를 넘겼어요!"
+	},
+	"stop": {
+		"description": "모든 노래를 멈춰요!",
+		"errorNotQueue": "재생할 노래가 없어요🥺",
+		"result": "<@{author}> 님이 ⏹ 노래를 멈췄어요!"
+	},
+	"uptime": {
+		"description": "가동 시간 확인",
+		"result": "아이유사랑해 봇은 지금까지 : `{days} 일,{hours} 시간, {minutes} 분, {seconds} 초`동안 노래했어요!"
+	},
+	"volume": {
+		"description": "현재 재생중인 노래의 볼륨을 설정해요!",
+		"errorNotQueue": "재생할 노래가 없어요🥺",
+		"errorNotChannel": "통화방에 들어와 있지 않아요🥺",
+		"currentVolume": "🔊 현재 볼륨은 **{volume}%** 이에요!",
+		"errorNotNumber": "설정할 볼륨을 입력해 주세요!",
+		"errorNotValid": "0 과 100 사이의 볼륨을 입력해주셔야 해요!",
+		"result": "볼륨이 **{arg}%**로 설정되었어요!"
+	},
+	"common": {
+		"on": "**켜짐**",
+		"off": "**꺼짐**",
+		"enabled": "**활성화**",
+		"disabled": "**비활성화**",
+		"errorNotChannel": "통화방에 들어와 있지 않아요🥺",
+		"cooldownMessage": "`{name}` 명령어를 실행하기 전 {time} 초 만큼 기다려주세요🥺",
+		"errorCommand": "명령어 실행에 실패했어요🥺"
+	}
+}
