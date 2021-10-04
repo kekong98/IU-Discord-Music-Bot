@@ -23,7 +23,7 @@
 <h4 align="center">현재 Discord 내에 아이유사랑해, 아이유좋아해 봇이 있습니다.</h4>
 
 ## Update_Log
-- **[2021.10.4]** </br>
+- **[2021.10.04]** </br>
 **1.** 24/7 작동을 위한 `keep_alive.js` 파일 생성 </br>
 ```sh
 const express = require('express');
