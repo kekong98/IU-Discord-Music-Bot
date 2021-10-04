@@ -23,6 +23,21 @@
 <h4 align="center">현재 Discord 내에 아이유사랑해, 아이유좋아해 봇이 있습니다.</h4>
 
 ## Update_Log
+- **[2021.10.4]** </br>
+**1.** 24/7 작동을 위한 `keep_alive.js` 파일 생성 </br>
+```sh
+const express = require('express');
+const app = express();
+const port = 2323;
+app.get('/', (req, res) => res.send('/// name'));
+
+app.listen(port, () => console.log(`Connected to http://localhost:${port}`));
+```
+**2.** `index.js` 에서 `keep_alive.js` 를 불러오는 명령 추가
+```sh
+const { keep_alive } = require("./keep_alive");
+```
+
 - **[2021.09.28]** </br>
 **1.** **아이유사랑해, 아이유좋아해 봇 제작** </br>
 
@@ -58,6 +73,11 @@ Required Discord Bot TOKEN, [Youtube API Key](https://developers.google.com/yout
 **3.** **At Console**, Enter `npm install` </br>
 **4.** And then, Enter `node index.js` </br>
 **5.** Press `Run` or Enter `node .` at Console </br>
+
+**With 24/7** </br>
+**6.** Open [**UptimeRobot**](https://uptimerobot.com/) </br>
+**7.** Press **+Add New Monitor** and **HTTP(s)** in Monitor Type  </br>
+**8.** Put your Replit link ex. `https://replitfilename.yourusername.repl.co` </br>
 
 ## License
 
