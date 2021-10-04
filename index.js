@@ -6,7 +6,6 @@ const { readdirSync } = require("fs");
 const { join } = require("path");
 const { TOKEN, PREFIX } = require("./util/Util");
 const i18n = require("./util/i18n");
-const { keep_alive } = require("./keep_alive");
 
 
 const client = new Client({
@@ -87,3 +86,4 @@ client.on("message", async (message) => {
     message.reply(i18n.__("common.errorCommand")).catch(console.error);
   }
 });
+
