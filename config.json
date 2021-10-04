@@ -1,0 +1,11 @@
+{
+  "TOKEN": "TOKEN HERE",
+  "YOUTUBE_API_KEY": "API HERE",
+  "SOUNDCLOUD_CLIENT_ID": "",
+  "MAX_PLAYLIST_SIZE": 50,
+  "PREFIX": ";;",
+  "PRUNING": false,
+  "LOCALE": "ko",
+  "STAY_TIME": 30,
+  "DEFAULT_VOLUME": 50
+}
