@@ -128,7 +128,6 @@
 		"mutedSong": "<@{author}> 님이 🔇 음소거를 설정했어요!",
 		"unmutedSong": "<@{author}> 님이 🔊 음소거를 해제했어요!",
 		"increasedVolume": "<@{author}> 님이 🔊 볼륨을 올렸어요, 현재 볼륨은 {volume}% 입니다!"
-		"decreasedVolume": "<@{author}> 님이 🔉 볼륨을 낮췄어요, 현재 볼륨은 {volume}% 입니다!"
 	},
 	"shuffle": {
 		"description": "노래 대기열을 무작위로 섞어요!",
