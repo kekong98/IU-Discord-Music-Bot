@@ -25,7 +25,13 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
  */
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`도움말, 명령어 ${PREFIX}help`, { type: "PLAYING" });
+  client.user.setPresence({
+    status: "online",  // You can choose online, idle, or dnd (do not disturb)
+    activity: {
+        name: `도움말, 명령어는 ${PREFIX}help`,  // The message shown as the bot status
+        type: "PLAYING", // PLAYING, WATCHING, LISTENING, STREAMING
+    }
+  });
 });
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
