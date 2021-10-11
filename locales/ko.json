@@ -34,11 +34,11 @@
 		"result": "<@{author}> ✅ **{title}** 를 대기열에서 {index}번째로 옮겼어요!"
 	},
 	"nowplaying": {
-		"description": "현재 재생중인 음악을 표시합니다.",
-		"errorNotQueue": "재생할 음악이 없습니다.",
+		"description": "현재 재생중인 음악을 표시해요!",
+		"errorNotQueue": "재생할 음악이 없어요🥺",
 		"embedTitle": "현재 재생중",
 		"live": " ◉ 스트리밍",
-		"timeRemaining": "남은 재생시간은 {time} 입니다."
+		"timeRemaining": "남은 재생시간은 {time} 입니다!"
 	},
 	"pause": {
 		"description": "현재 재생중인 음악을 일시중지 해요.",
