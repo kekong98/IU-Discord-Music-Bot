@@ -58,6 +58,7 @@ const { keep_alive } = require("./keep_alive");
 - `shuffle` --    **대기열에 있는 노래 무작위 설정**
 - `uptime` --    **봇 가동 시간 확인**
 - `ping` --    **봇의 평균 핑 수치 확인**
+- `nowplaying` -- **현재 재생중인 노래 확인**
 
 -- **추후 추가 예정**
 
