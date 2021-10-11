@@ -23,23 +23,21 @@
 <h4 align="center">현재 Discord 내에 아이유사랑해, 아이유좋아해 봇이 있습니다.</h4>
 
 ## Update_Log
-- **[2021.10.04]** </br>
-**1.** 24/7 작동을 위한 `keep_alive.js` 파일 생성 </br>
+- **[2021.10.12] - 24/7 유지 기능 및 노래 끊김 개선** </br> 
+1. REPLIT 을 인식하여 설정된 Port 로 실행시키는 `server.js` 생성 </br>
+2. `index.js` 에서 `server.js` 가 필요하다는 명령 추가 </br>
 ```sh
-const express = require('express');
-const app = express();
-const port = 2323;
-app.get('/', (req, res) => res.send('/// name'));
-
-app.listen(port, () => console.log(`Connected to http://localhost:${port}`));
+require('./server');
 ```
-**2.** `index.js` 에서 `keep_alive.js` 를 불러오는 명령 추가
+
+- **[2021.10.04] - 24/7 기능 추가**</br>
+1. 24/7 작동을 위한 `keep_alive.js` 파일 생성 </br>
+2. `index.js` 에서 `keep_alive.js` 를 불러오는 명령 추가
 ```sh
 const { keep_alive } = require("./keep_alive");
 ```
 
-- **[2021.09.28]** </br>
-**1.** **아이유사랑해, 아이유좋아해 봇 제작** </br>
+- **[2021.09.28]** - **아이유사랑해, 아이유좋아해 봇 제작** </br>
 
 ## Command
 
